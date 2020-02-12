@@ -1,7 +1,9 @@
 # GoogleTranslateVoiceDownloader
-Đoạn script này có thể giúp bạn tải lời thoại hàng loạt của "chị Google" từ [TextToSpeech.io](texttospeech.io).
+Đoạn script này có thể giúp bạn tải lời thoại hàng loạt của "chị Google" từ [https://texttospeech.io](https://texttospeech.io).
+
 English version [here](README-en.md)
-This guide is targeted to **Vietnamese**. You can simply use [soundoftext](soundoftext.com) if you use a different language.
+
+This guide is targeted to **Vietnamese**. You can simply use [soundoftext](https://soundoftext.com) if you use a different language.
 
 # Yêu cầu
 * Python 3
@@ -42,7 +44,7 @@ This guide is targeted to **Vietnamese**. You can simply use [soundoftext](sound
 
 Trên đây chỉ là 1 số ví dụ điển hình. Nếu bạn biết mã (và mã vùng nếu có) của ngôn ngữ đó bạn hoàn toàn có thể gán nó cho khoá `lang` được cung cấp.
 
-Thực tế nếu bạn muốn download hàng loạt bằng giọng của chị Google mới, hay của ngôn ngữ khác (vd như tiếng Anh), bạn có thể đơn giản sử dụng [soundoftext.com](soundoftext.com).
-Nhưng script của mình tiện lợi hơn ở chỗ bạn có thể download hàng loạt mà không cần phải nhấn lần lượt từng nút download như trên soundoftext.com 🐧
+Thực tế nếu bạn muốn download hàng loạt bằng giọng của chị Google mới, hay của ngôn ngữ khác (vd như tiếng Anh), bạn có thể đơn giản sử dụng [https://soundoftext.com](https://soundoftext.com).
+Nhưng script của mình tiện lợi hơn ở chỗ bạn có thể download hàng loạt mà không cần phải nhấn lần lượt từng nút download như trên https://soundoftext.com 🐧
 
-Script của mình chỉ tải lại audio từ [TextToSpeech.io](texttospeech.io), mình không phải là chủ sở hữu của API này.
+Script của mình chỉ tải lại audio từ [https://texttospeech.io](https://texttospeech.io), mình không phải là chủ sở hữu của API này.
