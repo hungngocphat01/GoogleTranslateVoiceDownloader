@@ -3,7 +3,7 @@
 
 English version [here](README-en.md)
 
-This guide is targeted to **Vietnamese**. You can simply use [soundoftext](https://soundoftext.com) if you use a different language.
+This guide is targeted to **Vietnamese**. You can simply use [soundoftext](https://soundoftext.com) if you speak a different language.
 
 # Yêu cầu
 * Python 3.
