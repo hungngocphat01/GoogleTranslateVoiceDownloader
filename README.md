@@ -20,7 +20,7 @@ This guide is targeted to **Vietnamese**. You can simply use [soundoftext](https
 
 # Config
 * Bạn có thể cấu hình script với file *config.json* kèm theo, nhưng thường là không cần trừ khi bạn muốn vọc phá thứ gì đó, ví dụ như tải giọng của "chị Google" mới chẳng hạn.
-    * `lang`: mã ngôn ngữ bằng 2 kí tự, và mã vùng nếu có (vd: vi, jp, ko, en-US, en-GB, ...). *(Mặc định: g1)*
+    * `lang`: mã ngôn ngữ bằng 2 kí tự, và mã vùng nếu có (vd: vi, jp, ko, en-US, en-GB, ...). *(Mặc định: vi)*
     * `engine`: engine mà Google Dịch sử dụng. Thực ra mình cũng chẳng biết đây là cái gì. *(Mặc định: g1)*
         * Lưu ý đối với **tiếng Việt** : **engine = g1** sẽ tải **giọng cũ** (cái giọng vui vui mà bạn thường lấy trên mấy video meme), còn **engine = g2** sẽ tải **giọng mới** (giọng đang được sử dụng mặc định trên Google Dịch).
     * `rate`: Tốc độ của câu thoại *(Mặc định: 0.5)*.

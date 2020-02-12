@@ -27,7 +27,7 @@ This small Python script can help you *batch* download Google Translate's voice 
     * `gender`: the gender of the voice (male, female) *(Default: female)*.
     * `wait`: the interval between downloads in second *(Default: 0.5)*.
 
-## Some examples for `lang` key
+## Some examples of `lang` key
 | Language name       | `lang` key |
 | ------------------- | ---------- |
 | Vietnamese          | vi         |
