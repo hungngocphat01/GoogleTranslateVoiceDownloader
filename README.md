@@ -26,7 +26,7 @@ This guide is targeted to **Vietnamese**. You can simply use [soundoftext](https
         * Lưu ý đối với **tiếng Việt** : **engine = g1** sẽ tải **giọng cũ** (cái giọng vui vui mà bạn thường lấy trên mấy video meme), còn **engine = g2** sẽ tải **giọng mới** (giọng đang được sử dụng mặc định trên Google Dịch).
     * `rate`: Tốc độ của câu thoại *(Mặc định: 0.5)*.
     * `pitch`: Cao độ của giọng đọc (cao hay thấp) *(Mặc định: 0.5)*.
-    * `gender`: the gender of the voice (male, female) *(Mặc định: female)*.
+    * `gender`: giới tính của anh/chị Google (male, female) *(Mặc định: female)*.
     * `wait`: Khoảng thời gian chờ giữa những lần download *(Mặc định: 0.5)*.
 
 ## Một số ví dụ cho khoá `lang`
@@ -50,6 +50,6 @@ Nhưng script của mình tiện lợi hơn ở chỗ bạn có thể download h
 
 Script của mình chỉ tải lại audio từ [texttospeech.io](https://texttospeech.io), mình không phải là chủ sở hữu của API này.
 
-Please email me if there is any copyright issue and I will edit/remove this repository right away.
+Please contact me if there is any copyright issue with this repository.
 
 My email address: hungngocphat01@gmail.com

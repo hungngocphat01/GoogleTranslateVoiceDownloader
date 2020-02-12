@@ -15,8 +15,8 @@ Yet my script is a little bit more convenient than soundoftext. You do not have 
 
 # Usage
 * Place a file named `input.txt` in the same folder with the script.
-* Write your "script" (the conversations you desire to download) in that text file. Each line will be downloaded into a seperate `mp3` file.
-* Either execute `run.bat` if you are on Windows or `run.sh` if you are on GNU/Linux. You can also run the `.py` file itself but you will not see the program's output (whether the download operation was successful or not).
+* Write your "script" (the content you desire to download) in that text file. Each line will be downloaded into a seperate `mp3` file.
+* Either execute `run.bat` if you are on Windows or `run.sh` if you are on GNU/Linux. You can also run the `.py` file itself but you will not be able to see the program's output (whether the download operation was successful or not).
 * Successfully downloaded files will be stored in `downloaded` folder.
 * Saved files will be named after the lines you put in `input.txt`.
 
@@ -58,7 +58,7 @@ There are much more languages [texttospeech.io](https://texttospeech.io) support
 Audio is provided by [texttospeech.io](https://texttospeech.io). I am not the owner of the API.
 My script only re-direct the audio from [texttospeech.io](https://texttospeech.io).
 
-Please email me if there is any copyright issue and I will edit/remove this repository right away.
+Please contact me if there is any copyright issue with this repository.
 
 My email address: hungngocphat01@gmail.com
 
