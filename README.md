@@ -6,20 +6,21 @@ English version [here](README-en.md)
 This guide is targeted to **Vietnamese**. You can simply use [soundoftext](https://soundoftext.com) if you use a different language.
 
 # Yêu cầu
-* Python 3
-* Các module cần thiết: requests, fake_useragent
+* Python 3.
+* Các module cần thiết: requests, fake_useragent.
 
 # Cài đặt
 * Download hoặc git clone repo này về máy của bạn.
 
 # Hướng dẫn sử dụng
-* Tạo 1 file tên *"input.txt"* trong cùng thư mục với script.
+* Tạo 1 file tên `input.txt` trong cùng thư mục với script.
 * Viết "kịch bản" của bạn (những lời thoại mà bạn muốn tải) vào file đó. Mỗi dòng sẽ được lưu thành một file *mp3* riêng biệt.
-* Chạy *run.bat* nếu bạn dùng Windows hoặc *run.sh* nếu bạn dùng GNU/Linux. Bạn cũng có thể chạy trực tiếp file *.py* nhưng bạn sẽ không được thông báo kết quả (tải có thành công hay gặp lỗi ở đâu đó).
-* Nếu được tải thành công, file mp3 sẽ được lưu trong thư mục *"downloaded"*.
+* Chạy `run.bat` nếu bạn dùng Windows hoặc `run.sh` nếu bạn dùng GNU/Linux. Bạn cũng có thể chạy trực tiếp file `.py` nhưng bạn sẽ không được thông báo kết quả (tải có thành công hay gặp lỗi ở đâu đó).
+* Nếu được tải thành công, file mp3 sẽ được lưu trong thư mục `"downloaded"`.
+* Tên của các file mp3 sẽ được đặt theo lời thoại mà bạn muốn tải trong file `input.txt`.
 
 # Config
-* Bạn có thể cấu hình script với file *config.json* kèm theo, nhưng thường là không cần trừ khi bạn muốn vọc phá thứ gì đó, ví dụ như tải giọng của "chị Google" mới chẳng hạn.
+* Bạn có thể cấu hình script với file `config.json` kèm theo, nhưng thường là không cần trừ khi bạn muốn vọc phá thứ gì đó, ví dụ như tải giọng của "chị Google" mới chẳng hạn.
     * `lang`: mã ngôn ngữ bằng 2 kí tự, và mã vùng nếu có (vd: vi, jp, ko, en-US, en-GB, ...). *(Mặc định: vi)*
     * `engine`: engine mà Google Dịch sử dụng. Thực ra mình cũng chẳng biết đây là cái gì. *(Mặc định: g1)*
         * Lưu ý đối với **tiếng Việt** : **engine = g1** sẽ tải **giọng cũ** (cái giọng vui vui mà bạn thường lấy trên mấy video meme), còn **engine = g2** sẽ tải **giọng mới** (giọng đang được sử dụng mặc định trên Google Dịch).
