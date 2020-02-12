@@ -48,3 +48,7 @@ Thực tế nếu bạn muốn download hàng loạt bằng giọng của chị 
 Nhưng script của mình tiện lợi hơn ở chỗ bạn có thể download hàng loạt mà không cần phải nhấn lần lượt từng nút download như trên soundoftext.com 🐧
 
 Script của mình chỉ tải lại audio từ [texttospeech.io](https://texttospeech.io), mình không phải là chủ sở hữu của API này.
+
+Please email me if there is any copyright issue and I will edit/remove this repository right away.
+
+My email address: hungngocphat01@gmail.com

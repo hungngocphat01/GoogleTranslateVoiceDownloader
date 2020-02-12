@@ -1,7 +1,9 @@
 # GoogleTranslateVoiceDownloader
 This small Python script can help you *batch* download Google Translate's voice to your computer from [texttospeech.io](https://texttospeech.io).
 
-**Note:** This guide is targeted to **Vietnamese**. You can simply use [soundoftext](https://soundoftext.com) if you use a different language.
+**Note:** This guide is targeted to **Vietnamese**. You can simply use [soundoftext](https://soundoftext.com) if you speak a different language.
+
+Yet my script is a little bit more convenient than soundoftext. You do not have to click every single "Download" button on each line of text.
 
 [Phiên bản Tiếng Việt/Vietnamese guide here](README.md)
 
@@ -55,4 +57,7 @@ There are much more languages [texttospeech.io](https://texttospeech.io) support
 Audio is provided by [texttospeech.io](https://texttospeech.io). I am not the owner of the API.
 My script only re-direct the audio from [texttospeech.io](https://texttospeech.io).
 
+Please email me if there is any copyright issue and I will edit/remove this repository right away.
+
+My email address: hungngocphat01@gmail.com
 
