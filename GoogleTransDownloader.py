@@ -3,6 +3,7 @@ try:
     from fake_useragent import UserAgent
     import json
     import time
+    import os
 except ImportError as e:
     print("This script requires 'requests' and 'fake_useragent' to be installed.")
     print("Please run 'pip install requests fake_useragent' from your shell to install them first.")
@@ -57,7 +58,16 @@ except Exception:
 # Number of lines 
 count = 0
 
-# Read and download input file line-by-line
+# If "downloaded folder not exist, create one"
+try:
+    if os.path.exists("./downloaded") == False:
+        os.mkdir("./downloaded")
+except Exception as e:
+    print("Folder 'downloaded' cannot be created. Please create one by yourself and run this script again.")
+    print(f"Error: {e}")
+    exit()
+
+# Read and download the input file line-by-line
 for line in inpFile.read().splitlines():
     text = line.replace(" ", "%20")
     url = f"https://texttospeech.responsivevoice.org/v1/text:synthesize?text={text}&lang={cfgLang}&engine={cfgEngine}&name=&pitch={cfgPitch}&rate={cfgRate}&volume=1&key=PL3QYYuV&gender={cfgGender}"
