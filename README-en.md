@@ -1,7 +1,7 @@
 # GoogleTranslateVoiceDownloader
-This small Python script can help you *batch* download Google Translate's voice to your computer from [https://texttospeech.io](https://texttospeech.io).
+This small Python script can help you *batch* download Google Translate's voice to your computer from [texttospeech.io](https://texttospeech.io).
 
-**Note:** This guide is targeted to **Vietnamese**. You can simply use [soundoftext](https://https://soundoftext.com) if you use a different language.
+**Note:** This guide is targeted to **Vietnamese**. You can simply use [soundoftext](https://soundoftext.com) if you use a different language.
 
 [Phiên bản Tiếng Việt/Vietnamese guide here](README.md)
 
@@ -50,9 +50,9 @@ This small Python script can help you *batch* download Google Translate's voice 
 | Greek               | el         |
 | Hindi               | hi         |
 
-There are much more languages [https://texttospeech.io](https://texttospeech.io) supports but I can only list a few examples. You can still try the code of your language even it is not listed here (this table just provides some examples). For example: `pt-PT` for Portuguese, `pl` for Polish, `th` for Thai, ...
+There are much more languages [texttospeech.io](https://texttospeech.io) supports but I can only list a few examples. You can still try the code of your language even it is not listed here (this table just provides some examples). For example: `pt-PT` for Portuguese, `pl` for Polish, `th` for Thai, ...
 
-Audio is provided by [https://texttospeech.io](https://texttospeech.io). I am not the owner of the API.
-My script only re-direct the audio from [https://texttospeech.io](https://texttospeech.io).
+Audio is provided by [texttospeech.io](https://texttospeech.io). I am not the owner of the API.
+My script only re-direct the audio from [texttospeech.io](https://texttospeech.io).
 
 
