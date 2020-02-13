@@ -16,7 +16,7 @@ This guide is targeted to **Vietnamese**. You can simply use [soundoftext](https
 * Tạo 1 file tên `input.txt` trong cùng thư mục với script.
 * Viết "kịch bản" của bạn (những lời thoại mà bạn muốn tải) vào file đó. Mỗi dòng sẽ được lưu thành một file *mp3* riêng biệt.
 * Chạy `run.bat` nếu bạn dùng Windows hoặc `run.sh` nếu bạn dùng GNU/Linux. Bạn cũng có thể chạy trực tiếp file `.py` nhưng bạn sẽ không được thông báo kết quả (tải có thành công hay gặp lỗi ở đâu đó).
-* Nếu được tải thành công, file mp3 sẽ được lưu trong thư mục `downloaded`.
+* Nếu tải thành công, file mp3 sẽ được lưu trong thư mục `downloaded`.
 * Tên của các file mp3 sẽ được đặt theo lời thoại mà bạn muốn tải trong file `input.txt`.
 
 # Config
