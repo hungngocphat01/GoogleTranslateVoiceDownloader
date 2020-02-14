@@ -21,7 +21,7 @@ ua = UserAgent()
 
 # Download function
 def download(url, filename):
-    if len(filename) > 20:
+    if len(filename) > 30:
         filename_disp = filename[:filename.find(".mp3")][:30] + "..." + ".mp3"
     else:
         filename_disp = filename
