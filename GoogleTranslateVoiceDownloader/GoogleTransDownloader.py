@@ -1,9 +1,10 @@
+import json
+import time
+import os
+import platform
 try:
     import requests
     from fake_useragent import UserAgent
-    import json
-    import time
-    import os
 except ImportError as e:
     print("This script requires 'requests' and 'fake_useragent' to be installed.")
     print(f"Details:\n{e}")
@@ -13,6 +14,15 @@ except ImportError as e:
     choice = input("Your choice: ")
     if (choice == "y"): 
         os.system("pip install requests fake_useragent")
+        # Re-import
+        import requests
+        from fake_useragent import UserAgent
+
+        # Clear screen
+        osName = platform.uname().system
+        if (osName == "Windows"): os.system("cls")
+        else: os.system("clear")
+
     if (choice == "n"):
         print("Please run 'pip install requests fake_useragent' from your shell to install them first, then run this script again.")
         exit()
