@@ -28,7 +28,8 @@ def download(url, filename):
 
 print("Google Translate Voice Batch Downloader")
 print("Audio provider: TextToSpeech.io")
-print("By hungngocphat01\n")
+print("By hungngocphat01")
+print("-"*75)
 
 # Default config
 cfgDict = {"lang": "vi", "engine": "g1", "pitch": 0.5, "rate": 0.5, "gender": "female", "wait": 0.5}
@@ -53,6 +54,7 @@ try:
     inpFile = open("input.txt", mode="r", encoding="utf-8")
 except Exception:
     print("File 'input.txt' not exist or not readable.")
+    print(f"Error: {e}")
     exit()
 
 # Number of lines 
@@ -75,11 +77,11 @@ for line in inpFile.read().splitlines():
         download(url, r"./downloaded/" + line + ".mp3")
         count += 1
         time.sleep(cfgWait)
-    except Exception as e:
+    except Exception:
         print(f"Cannot download {line}.mp3\n")
 
-
-print(f"\nDownloaded {count} file(s)")
+print("-"*70)
+print(f"Downloaded {count} file(s)")
 
 inpFile.close()
 confFile.close()
