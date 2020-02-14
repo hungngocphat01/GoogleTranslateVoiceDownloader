@@ -12,6 +12,8 @@ except ImportError as e:
     # Auto install
     print("\nWould you like to install them? (y/n)")
     choice = input("Your choice: ")
+    choice = choice.lower()
+    choice = choice.strip()
     if (choice == "y"): 
         os.system("pip install requests fake_useragent")
         # Re-import
