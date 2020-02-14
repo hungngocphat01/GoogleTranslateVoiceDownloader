@@ -6,8 +6,16 @@ try:
     import os
 except ImportError as e:
     print("This script requires 'requests' and 'fake_useragent' to be installed.")
-    print("Please run 'pip install requests fake_useragent' from your shell to install them first.")
     print(f"Details:\n{e}")
+
+    # Auto install
+    print("\nWould you like to install them? (y/n)")
+    choice = input("Your choice: ")
+    if (choice == "y"): 
+        os.system("pip install requests fake_useragent")
+    if (choice == "n"):
+        print("Please run 'pip install requests fake_useragent' from your shell to install them first, then run this script again.")
+        exit()
 
 ua = UserAgent()
 
